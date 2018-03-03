@@ -4,6 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { ContactComponent } from './app/layout/contact/contact.component';
 
 
 
@@ -11,7 +12,8 @@ import { FooterComponent } from './layout/footer/footer.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
